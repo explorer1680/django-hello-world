@@ -1,0 +1,41 @@
+how to enter and exit python Virtual Environments:
+
+http://docs.python-guide.org/en/latest/dev/virtualenvs/
+enter:
+[echeng@rhdevapp01 bin]$ pwd
+/opt/local/django/webapp-evo/virt_evo/bin
+. ./activate
+
+exit:
+(virt_evo)[echeng@rhdevapp01 commands]$ deactivate
+
+
+
+how to build and run a command in django:
+https://docs.djangoproject.com/en/1.11/howto/custom-management-commands/
+
+$ django-admin <command> [options]
+$ manage.py <command> [options]
+$ python -m django <command> [options]
+
+https://docs.djangoproject.com/en/1.11/ref/django-admin/
+
+
+
+
+
+django project structure:
+http://django-project-skeleton.readthedocs.io/en/latest/structure.html
+
+
+
+how to setup vim tag using space.
+
+set expandtab
+
+
+list module installed in virtualenv
+
+pip list
+
+
